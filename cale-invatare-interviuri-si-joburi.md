@@ -1,20 +1,46 @@
 # 🎯 Interviuri & Joburi în QA
 
-> CV · Autoevaluare realistă · Pregătire interviu · Negociere · Fără experiență minimă necesară
+> CV · Autoevaluare realistă · Pregătire interviu · Negociere · Primele 90 de zile
 
 ---
 
 ## 📋 Cuprins
 
 - [Faza 1 — CV-ul de QA](#-faza-1--cv-ul-de-qa)
+  - [Structura recomandată](#structura-recomandată)
+  - [Rezumat profesional](#rezumat-profesional--cele-3-fraze-care-contează)
+  - [Competențe tehnice](#competențe-tehnice--ce-pui-și-ce-nu-pui)
+  - [Portofoliu GitHub](#portofoliu-github--mai-valoros-decât-orice-certificat)
 - [Faza 2 — Înveți rapid ce cere descrierea postului](#-faza-2--înveți-rapid-ce-cere-descrierea-postului)
 - [Faza 3 — Identifică-ți punctele forte în mod realist](#-faza-3--identifică-ți-punctele-forte-în-mod-realist)
+  - [Harta competențelor](#harta-competențelor--fă-ți-o-evaluare-sinceră)
+  - [Cele trei categorii ale experienței](#cele-trei-categorii-ale-experienței-tale)
 - [Faza 4 — Ce faci cu ce nu știi](#-faza-4--ce-faci-cu-ce-nu-tii)
 - [Faza 5 — Pregătire interviu tehnic](#-faza-5--pregătire-interviu-tehnic)
+  - [Categorii de întrebări tehnice pentru QA](#categorii-de-întrebări-tehnice-pentru-qa)
+  - [Cum te pregătești](#cum-te-pregătești)
 - [Faza 6 — Interviul comportamental](#-faza-6--interviul-comportamental)
+  - [Metoda STAR](#metoda-star)
+  - [Scenarii de pregătit](#scenarii-pe-care-să-le-pregătești)
+  - [De ce ai plecat de la fostul job](#de-ce-ai-plecat-de-la-fostul-job)
+  - [Întrebări pe care TU le pui la final](#întrebări-pe-care-tu-le-pui-la-final)
 - [Faza 7 — Earn or Learn](#-faza-7--earn-or-learn)
+  - [Matricea de decizie](#matricea-de-decizie)
+  - [Learn = tehnologie transferabilă](#-learn-nu-înseamnă-orice-tehnologie--înseamnă-tehnologie-transferabilă)
+  - [La începutul carierei vs. mai târziu](#la-începutul-carierei-vs-mai-târziu)
 - [Faza 8 — Negocierea și decizia finală](#-faza-8--negocierea-și-decizia-finală)
+  - [Cum afli ce să ceri](#cum-afli-ce-să-ceri)
+  - [Când și cum negociezi](#când-și-cum-negociezi)
+  - [Cum evaluezi o ofertă](#cum-evaluezi-o-ofertă-dincolo-de-salariu)
+  - [Cercetează compania](#cercetează-compania-înainte-de-interviu)
+  - [Semnale de alarmă](#semnale-de-alarmă-într-un-interviu)
+- [Faza 9 — Când ai fost acceptat](#-faza-9--când-ai-fost-acceptat)
+  - [Înainte să pleci de la fostul job](#înainte-să-pleci-de-la-fostul-job)
+  - [Primele 90 de zile](#primele-90-de-zile)
 - [Sfaturi practice](#-sfaturi-practice)
+  - [Înainte de fiecare interviu](#înainte-de-fiecare-interviu)
+  - [După fiecare interviu](#după-fiecare-interviu)
+  - [Când ești respins](#când-ești-respins)
 
 ---
 
@@ -331,6 +357,35 @@ Pregătește câte un răspuns STAR pentru fiecare:
 - O situație în care ai trebuit să prioritizezi sub presiune
 - Ceva ce ai îmbunătățit în procesul echipei tale
 
+### De ce ai plecat de la fostul job
+
+Nu vorbi niciodată rău de fostul angajator — nici de șef, nici de client, nici de colegi. Chiar dacă aveai dreptate să pleci.
+
+Intervievatorul nu știe cine e șeful tău de la fosta companie. Dar știe că în câțiva ani ar putea fi el. Orice critică adusă unui fost angajator se traduce automat în întrebarea: *„Oare asta va spune despre noi dacă pleacă?"*
+
+**De ce e tentant și de ce e totuși o greșeală**
+
+E uman să vrei să explici de ce ai plecat. Mai ales când realitatea e că managerul tău nu contribuia cu nimic concret — poate că singura lui interacțiune cu tine era un link de evaluare din care puteai alege între 0 și 5 stele, și atât. Fără feedback real, fără direcție, fără nicio conversație despre creșterea ta profesională.
+
+Frustrarea e legitimă. Dar interviul nu e locul unde o exprimi.
+
+Motivul e simplu: **nu poți controla ce știe intervievatorul despre acea companie sau acei oameni.** Piața românească de tech e mică. Drumurile se intersectează des. Cel pe care îl critici azi poate fi coleg, client sau partener al viitorului tău angajator mâine.
+
+**Cum reformulezi onest, fără să minți**
+
+Nu trebuie să lauzi ce a fost rău. Trebuie doar să muți conversația spre tine, nu spre ei.
+
+| Ce gândești | Ce spui la interviu |
+|-------------|---------------------|
+| „Șeful nu făcea nimic, nu primeam niciun feedback" | „Căutam un mediu cu mai mult mentorship și feedback structurat" |
+| „Nu exista niciun proces, testam în criză permanent" | „Voiam să lucrez într-o echipă unde calitatea e prioritate, nu doar stingătorul de incendii" |
+| „Tehnologia era veche și nimeni nu voia să schimbe nimic" | „Îmi doream să lucrez cu tehnologii moderne și să continui să cresc tehnic" |
+| „Eram singurul QA și nu aveam cu cine să colaborez" | „Voiam să fac parte dintr-o echipă de QA, să învăț de la colegi cu mai multă experiență" |
+
+Dacă fiecare sprint era un dezastru, dacă testarea se întâmpla în ultimele ore înainte de release, dacă bugurile critice erau descoperite în producție pentru că nu exista timp de testare real — la interviu poți spune: *„Îmi doresc să lucrez într-un mediu unde QA e integrat în proces de la început, nu adăugat la final ca o formalitate."* Asta descrie ce cauți. Nu acuză pe nimeni.
+
+Frustrarea rămâne a ta. Direcția o arăți spre viitor, nu spre trecut.
+
 ### Întrebări pe care TU le pui la final
 
 Nu încheia cu „Nu am întrebări." Arată că gândești dincolo de interviu.
@@ -500,46 +555,90 @@ Nu te prezenta la interviu fără să știi cu cine stai de vorbă. Câteva ore 
 
 ---
 
-## 🗣️ Nu vorbi niciodată rău de fostul angajator
+## 🎉 Faza 9 — Când ai fost acceptat
 
-Nici de șef. Nici de client. Nici de colegi. Chiar dacă aveai dreptate să pleci.
+Acceptul îți deschide ușa. Entuziasmul din primele zile e real și e bun — dar e diferit de competența reală. Ce urmează depinde în întregime de tine.
 
-Intervievatorul nu știe cine e șeful tău de la fosta companie. Dar știe că în câțiva ani ar putea fi el. Orice critică adusă unui fost angajator se traduce automat în întrebarea: *„Oare asta va spune despre noi dacă pleacă?"*
+| Resursă | Durată | Link |
+|---------|--------|------|
+| The Science of Well-Being — Yale / Coursera (Laurie Santos) | ~10h | [→ Deschide](https://www.coursera.org/learn/the-science-of-well-being) |
+| Work-Life Balance — LinkedIn Learning | ~2h | [→ Deschide](https://www.linkedin.com/learning/topics/work-life-balance) |
+| Burnout — Harvard Business Review | ~1h | [→ Deschide](https://hbr.org/topic/subject/burnout) |
 
-### De ce e tentant și de ce e totuși o greșeală
+### Înainte să pleci de la fostul job
 
-E uman să vrei să explici de ce ai plecat. Mai ales când realitatea e că managerul tău nu contribuia cu nimic concret — poate că singura lui interacțiune cu tine era un link de evaluare din care puteai alege între 0 și 5 stele, și atât. Fără feedback real, fără direcție, fără nicio conversație despre creșterea ta profesională.
+Trimite un email de rămas-bun. Nu pentru fostul angajator. Pentru tine.
 
-Frustrarea e legitimă. Dar interviul nu e locul unde o exprimi.
+Piața românească de tech e mică. Cel care ți-a fost coleg azi poate fi intervievator, client sau partener de business peste 3 ani. Cel care ți-a fost manager poate fi referință pentru un job pe care îl vrei peste 5 ani fără să știi asta în avans. Reputația se construiește lent și se distruge repede.
 
-Motivul e simplu: **nu poți controla ce știe intervievatorul despre acea companie sau acei oameni.** Piața românească de tech e mică. Drumurile se intersectează des. Cel pe care îl critici azi poate fi coleg, client sau partener al viitorului tău angajator mâine.
+**Cum arată un email de plecare bun:**
 
-### Ce a trecut, a trecut
+```
+Subiect: Mulțumesc și la revedere
 
-Ce a fost rău la fostul job — a fost. Nu mai poți schimba asta. Îl duci cu tine ca experiență, ca lecție, ca motiv să cauți ceva mai bun. Dar nu îl duci în sala de interviu.
+Salut echipă,
 
-Un intervievator experimentat știe că niciun job nu e perfect. Dacă îi spui că ai plecat pentru că voiai să crești tehnic și mediul nu oferea asta — înțelege. Dacă îi spui că șeful era incompetent și echipa era dezorganizată — ridică un semnal de alarmă, indiferent dacă ai dreptate sau nu.
+Astăzi e ultima mea zi la [Companie]. A venit momentul să încerc un nou capitol.
 
-### Cum reformulezi onest, fără să minți
+Le mulțumesc în mod special lui [nume coleg] și [nume coleg] — 
+am învățat mult lucrând alături de voi.
 
-Nu trebuie să lauzi ce a fost rău. Trebuie doar să muți conversația spre tine, nu spre ei.
+Vă doresc succes în continuare proiectelor și echipei. 
+Rămân disponibil pe [email personal] și pe LinkedIn.
 
-| Ce gândești | Ce spui la interviu |
-|-------------|---------------------|
-| „Șeful nu făcea nimic, nu primeam niciun feedback" | „Căutam un mediu cu mai mult mentorship și feedback structurat" |
-| „Nu exista niciun proces, testam în criză permanent" | „Voiam să lucrez într-o echipă unde calitatea e prioritate, nu doar stingătorul de incendii" |
-| „Tehnologia era veche și nimeni nu voia să schimbe nimic" | „Îmi doream să lucrez cu tehnologii moderne și să continui să cresc tehnic" |
-| „Eram singurul QA și nu aveam cu cine să colaborez" | „Voiam să fac parte dintr-o echipă de QA, să învăț de la colegi cu mai multă experiență" |
+[Semnătură]
+```
 
-### Nu poți face calitate când stingi incendii permanent
+**Ce nu pui în el:**
 
-Asta e o realitate pe care mulți QA o trăiesc — și e un motiv valid să pleci. Dar e și un subiect pe care îl abordezi constructiv, nu ca o plângere.
+- Niciun indiciu despre ce a fost rău
+- Nicio aluzie la motive pentru care ai plecat
+- Nicio critică voalată — oricât de „subtilă" crezi că e, se simte
+- Nicio comparație cu noul job
 
-Dacă fiecare sprint era un dezastru, dacă testarea se întâmpla în ultimele ore înainte de release, dacă bugurile critice erau descoperite în producție pentru că nu exista timp de testare real — toate astea îți spun ceva despre cultura acelei organizații.
+**Ce contează:** tonul cald, mulțumirile concrete față de 1–2 persoane și o ușă lăsată deschisă. Atât.
 
-La interviu poți spune: *„Îmi doresc să lucrez într-un mediu unde QA e integrat în proces de la început, nu adăugat la final ca o formalitate."* Asta descrie ce cauți. Nu acuză pe nimeni. Și orice companie serioasă va înțelege exact ce înseamnă.
+> Chiar dacă ai plecat pentru că era toxic, dezorganizat sau prost plătit — emailul de plecare nu e locul unde îți exprimi dreptatea. E ultimul lucru despre care oamenii din acea companie își vor aminti referitor la tine. Fă-l scurt și elegant.
 
-Frustrarea rămâne a ta. Direcția o arăți spre viitor, nu spre trecut.
+### Primele 90 de zile
+
+**Resetul mental**
+
+Prima tentație când ajungi la un job nou e să demonstrezi rapid că meriți locul. Uneori vine dintr-un gând mai puțin confortabil: oare de ce te-au luat? Poate au fost în situație dificilă. Poate ai fost cel mai bun dintr-o listă scurtă. Nu contează — acceptul îți deschide ușa, dar ce faci după e integral responsabilitatea ta. Începi egal cu oricine altcineva care a început vreodată acolo.
+
+Rezistă impulsului de a prova ceva imediat.
+
+**Cum asculți și livrezi**
+
+- **Ascultă mai mult decât vorbești** în primele 2–4 săptămâni
+- **Înțelege contextul** înainte să propui schimbări — ce pare greșit poate fi greșit din motive pe care nu le cunoști încă
+- **Livrează ce ți se cere**, chiar dacă crezi că știi o cale mai bună — ai timp să propui alternative după ce ai câștigat încredere
+- **Pune întrebări** — nu e semn de slăbiciune, e semn că gândești
+
+Viteza cu care un om nou ajunge să fie ascultat e direct proporțională cu cât de mult a ascultat el mai întâi.
+
+**Ritmul sustenabil**
+
+Există un tipar repetat pe care mulți îl văd dar puțini îl numesc deschis: omul nou lucrează mai mult decât oricine altcineva din echipă. Vine primul, pleacă ultimul, preia tot ce se poate prelua, spune „da" la orice. Pare dedicare. De fapt e anxietate.
+
+Mecanismul e simplu: nesiguranța de la început — „trebuie să demonstrez că merit" — se transformă în suprasolicitare cronică. Creierul nu mai face distincție între urgență reală și urgență percepută. Totul pare important, totul pare urgent, nimic nu poate aștepta.
+
+**Cel mai frecvent la prima promovare.** Cineva care a avansat prima dată la un nivel ierarhic mai mare — tech lead, QA lead, orice rol cu responsabilitate crescută — are un risc suplimentar: simte că trebuie să justifice permanent că merită noul titlu. Rezultatul e că livrează de trei ori mai mult decât e sănătos, se arde în câteva luni și pleacă din organizație în mai puțin de un an. Nu din lipsă de competență — din lipsă de limite.
+
+**Ce se întâmplă în practică:**
+- Primele 1–2 luni: energie mare, totul merge, ești lăudat
+- Luna 3–4: oboseala se acumulează, dar continui pentru că „nu poți da înapoi acum"
+- Luna 5–6: starea mentală se degradează vizibil — iritabilitate, lipsă de concentrare, sentiment că munca nu are sens
+- Luna 7–9: fie pleci, fie te îmbolnăvești, fie rămâi dar dai mult mai puțin decât ai fi dat cu un ritm sustenabil de la început
+
+**Ce faci în schimb:**
+
+- Stabilește de la început un ritm pe care îl poți menține 2 ani, nu unul pe care îl poți menține 2 luni
+- „Nu știu încă, am nevoie de câteva zile să înțeleg contextul" e un răspuns complet valid în primele luni
+- Dacă simți că faci mult mai mult decât colegii — nu e un semn că ești mai bun, e un semn că ai o problemă de limite
+- Un om odihnit livrează mai mult pe termen lung decât un om epuizat care livrează mult pe termen scurt
+
+> Organizația nu e în pericol dacă tu pleci la timp acasă. Dar tu ești în pericol dacă nu o faci.
 
 ---
 

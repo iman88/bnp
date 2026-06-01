@@ -19,7 +19,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 | Mă interesează securitatea sau performanța | [Security Testing](./cale-invatare-security-testing.md) · [Performance Testing](./cale-invatare-performance-testing.md) |
 | Vreau să folosesc AI în munca mea | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) · [AI pentru Automation](./cale-invatare-ai-in-testare-automatizare.md) |
 | Sunt senior și vreau să avansez | [QA Tech Lead](./cale-invatare-qa-tech-lead.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) · [QA Manager](./cale-invatare-qa-manager.md) |
-| Caut un job sau vreau să schimb jobul | [Interviuri & Joburi](./cale-invatare-interviuri-si-joburi.md) |
+| Caut un job, schimb jobul sau am primit o ofertă | [Interviuri & Joburi](./cale-invatare-interviuri-si-joburi.md) |
 
 ---
 
@@ -103,7 +103,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 
 | Traseu | Focus | Când îl folosești |
 |--------|-------|-------------------|
-| [Interviuri & Joburi în QA](./cale-invatare-interviuri-si-joburi.md) | CV · Autoevaluare · Pregătire interviu · Negociere salarială · Earn or Learn | Înainte de prima aplicare sau când vrei să schimbi jobul |
+| [Interviuri & Joburi în QA](./cale-invatare-interviuri-si-joburi.md) | CV · Autoevaluare · Pregătire interviu · Negociere salarială · Earn or Learn · Primele 90 de zile | De la prima aplicare până la primele 90 de zile la noul job |
 
 ---
 
