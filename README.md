@@ -155,7 +155,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 | Java 21 LTS | 21 LTS | Sep 2029 | Java 25 LTS disponibil din sep 2025 — consideră migrare | 2027 |
 | Playwright | 1.52 | — | Verifică release-uri noi la fiecare 3 luni | continuu |
 | JUnit 5 | 5.11 | — | Actualizează la ultimul patch la fiecare 6 luni | continuu |
-| OWASP Top 10 | 2021 | — | Actualizează security path când OWASP publică ediția 2025 | când apare |
+| OWASP Top 10 | 2025 | — | — | ✅ |
 | Postman | v12 | — | Verifică la fiecare major release Postman Academy | anual |
 
 ---

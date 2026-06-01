@@ -44,25 +44,25 @@
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| OWASP Top 10 — Documentație oficială | referință | [→ Deschide](https://owasp.org/www-project-top-ten/) |
+| OWASP Top 10:2025 — Documentație oficială | referință | [→ Deschide](https://owasp.org/Top10/2025/) |
 | OWASP Top 10 — TryHackMe (practic) | ~8h | [→ Deschide](https://tryhackme.com/room/owasptop10) |
 | WebGoat — Aplicație vulnerabilă pentru practică | self-hosted | [→ Deschide](https://owasp.org/www-project-webgoat/) |
 | DVWA (Damn Vulnerable Web App) | self-hosted | [→ Deschide](https://github.com/digininja/DVWA) |
 
-**OWASP Top 10 — 2021:**
+**OWASP Top 10 — 2025:**
 
 | # | Vulnerabilitate | Ce înseamnă |
 |---|----------------|-------------|
 | A01 | Broken Access Control | Utilizatorul accesează resurse la care nu ar trebui să aibă acces |
-| A02 | Cryptographic Failures | Date sensibile neprotejate sau criptate slab |
-| A03 | Injection (SQL, XSS, etc.) | Date nevalidate executate ca și cod |
-| A04 | Insecure Design | Arhitectură cu probleme de securitate din faza de design |
-| A05 | Security Misconfiguration | Configurări implicite nesigure, permisiuni excesive |
-| A06 | Vulnerable Components | Biblioteci și dependențe cu vulnerabilități cunoscute |
-| A07 | Auth Failures | Autentificare și gestionare sesiuni defectuoasă |
-| A08 | Integrity Failures | Cod și date fără verificare de integritate |
-| A09 | Logging Failures | Lipsa jurnalizării evenimentelor de securitate |
-| A10 | SSRF | Serverul face cereri către resurse interne nepermise |
+| A02 | Security Misconfiguration | Configurări implicite nesigure, permisiuni excesive, headere lipsă |
+| A03 | Software Supply Chain Failures | Componente terțe compromise — biblioteci, dependențe, pipeline CI/CD |
+| A04 | Cryptographic Failures | Date sensibile neprotejate sau criptate slab |
+| A05 | Injection (SQL, XSS, etc.) | Date nevalidate executate ca și cod |
+| A06 | Insecure Design | Arhitectură cu probleme de securitate din faza de design |
+| A07 | Authentication Failures | Autentificare și gestionare sesiuni defectuoasă |
+| A08 | Software or Data Integrity Failures | Cod și date fără verificare de integritate, CI/CD nesecurizat |
+| A09 | Security Logging and Alerting Failures | Lipsa jurnalizării și alertelor pentru evenimente de securitate |
+| A10 | Mishandling of Exceptional Conditions | Erori și excepții gestionate greșit, expunând informații sensibile |
 
 **Practică recomandată:** Instalează DVWA local și reproduce fiecare vulnerabilitate din OWASP Top 10 în mediu controlat. Înțelegi cum funcționează atacul înainte să înveți cum să îl detectezi.
 
