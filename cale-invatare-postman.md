@@ -119,3 +119,4 @@ Certificările sunt verificabile digital și pot fi adăugate pe LinkedIn sau CV
 | **Platformă** | academy.postman.com |
 | **Versiune Postman** | v12 (2025) |
 | **Certificări disponibile** | 4 |
+| **Pasul următor** | [Testare Manuală](./cale-invatare-testare-manuala.md) · [Testare SQL & Baze de Date](./cale-invatare-sql-testing.md) |

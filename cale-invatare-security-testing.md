@@ -274,3 +274,4 @@ Security testing e diferit de testarea funcțională — gândești ca un atacat
 | **Cost** | 100% gratuit |
 | **Focus** | Vulnerabilități web, API security, integrare în CI/CD |
 | **Avertisment** | Testează exclusiv pe sisteme autorizate |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [QA Tech Lead](./cale-invatare-qa-tech-lead.md) |

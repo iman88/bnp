@@ -47,7 +47,7 @@
 
 | Unealtă | Scop | Link |
 |---------|------|------|
-| Python 3.12+ | Runtime Python | [→ Descarcă](https://www.python.org/downloads/) |
+| Python 3.13+ | Runtime Python | [→ Descarcă](https://www.python.org/downloads/) |
 | VS Code + extensia Python | IDE principal | [→ Descarcă](https://code.visualstudio.com/) |
 | pip + venv | Gestionare pachete și medii virtuale | [→ Ghid](https://docs.python.org/3/library/venv.html) |
 | Git (cap. 1–3) | Control de versiune | [→ Pro Git Book](https://git-scm.com/book/en/v2) |
@@ -231,7 +231,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - run: pip install -r requirements.txt
       - run: playwright install --with-deps chromium
       - run: pytest tests/ --alluredir=allure-results
@@ -271,7 +271,7 @@ my-playwright-framework/
         └── tests.yml
 ```
 
-> 💼 **Primul job:** Cu Faza 1–3 completă și un portofoliu de pe GitHub cu Playwright, poți aplica la Junior Automation QA. Playwright e extrem de căutat în 2025–2026.
+> 💼 **Primul job:** Cu Faza 1–3 completă și un portofoliu de pe GitHub cu Playwright, poți aplica la Junior Automation QA. Playwright e extrem de căutat în 2026–2027.
 
 ---
 
@@ -302,9 +302,9 @@ my-playwright-framework/
 
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
-| Limbaj | Python | 3.12+ |
+| Limbaj | Python | 3.13+ |
 | IDE | VS Code | latest |
-| UI Automation | Playwright | 1.44+ |
+| UI Automation | Playwright | 1.52+ |
 | Test framework | pytest | 8.x |
 | API Testing | requests / Playwright API | latest |
 | Reporting | Allure + pytest-playwright HTML | latest |
@@ -325,3 +325,4 @@ my-playwright-framework/
 | **Limbaj** | Python |
 | **Focus** | Playwright UI + API Testing |
 | **Avantaj față de Java** | Sintaxă mai simplă, setup mai rapid, `codegen` + trace viewer built-in |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

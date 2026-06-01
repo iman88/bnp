@@ -138,8 +138,25 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 ## 📌 Note
 
 - Toate resursele menționate sunt gratuite dacă nu e specificat altfel
-- Versiuni curente: Playwright 1.44 · Selenium 4.21 · Java 17 LTS · Python 3.12 · TypeScript 5 · Node.js 20 LTS · .NET 8 LTS · Postman v12
+- Versiuni curente: Playwright 1.52 · Selenium 4.21 · Java 21 LTS · Python 3.13 · TypeScript 5 · Node.js 22 LTS · .NET 10 LTS · Postman v12
 - Sugestiile și contribuțiile sunt binevenite prin issues sau pull requests
+
+---
+
+## 🔄 Mentenanță & Actualizări Planificate
+
+> Versiunile din repo au dată de expirare. Tabelul de mai jos indică când fiecare componentă trebuie revizuită.
+
+| Componentă | Versiune curentă | EOL / Eveniment | Acțiune necesară | Urgență |
+|------------|-----------------|-----------------|------------------|---------|
+| .NET 10 LTS | 10 LTS | Nov 2030 | — | ✅ |
+| Node.js 22 LTS | 22 LTS | Apr 2027 | Actualizează la Node.js 24 LTS (LTS din oct 2025) | Ian 2027 |
+| Python 3.13 | 3.13 | Oct 2029 | Actualizează la 3.14 după stabilizare | Nov 2026 |
+| Java 21 LTS | 21 LTS | Sep 2029 | Java 25 LTS disponibil din sep 2025 — consideră migrare | 2027 |
+| Playwright | 1.52 | — | Verifică release-uri noi la fiecare 3 luni | continuu |
+| JUnit 5 | 5.11 | — | Actualizează la ultimul patch la fiecare 6 luni | continuu |
+| OWASP Top 10 | 2021 | — | Actualizează security path când OWASP publică ediția 2025 | când apare |
+| Postman | v12 | — | Verifică la fiecare major release Postman Academy | anual |
 
 ---
 

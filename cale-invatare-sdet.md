@@ -23,7 +23,7 @@
 |---------|--------|------|
 | Clean Code Principles — Refactoring.guru | ~5h | [→ Deschide](https://refactoring.guru/refactoring) |
 | Design Patterns — Refactoring.guru | ~8h | [→ Deschide](https://refactoring.guru/design-patterns) |
-| Data Structures & Algorithms — freeCodeCamp | ~10h | [→ Deschide](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) |
+| Data Structures & Algorithms in Python — Runestone Academy | ~10h | [→ Deschide](https://runestone.academy/ns/books/published/pythonds3/index.html) |
 | Git Advanced — Atlassian | ~3h | [→ Deschide](https://www.atlassian.com/git/tutorials/advanced-overview) |
 
 **Ce diferențiază codul unui SDET de codul unui automation engineer:**
@@ -364,6 +364,23 @@ Un developer construiește funcționalități pentru utilizatori. Un SDET constr
 
 ---
 
+## 🛠 Stack SDET
+
+| Categorie | Tehnologie | Versiune/Note |
+|-----------|-----------|--------------|
+| Limbaj | Python sau Java | 3.13+ / 21 LTS |
+| Mutation testing | mutmut (Python) / Pitest (Java) | latest |
+| Property-based testing | Hypothesis (Python) | latest |
+| Contract testing | Pact | latest |
+| Containerizare | Docker | latest |
+| Orkestrare | Kubernetes | latest |
+| Observabilitate | OpenTelemetry + Grafana + Prometheus | latest |
+| Distributed tracing | Jaeger / Zipkin | latest |
+| CI/CD | GitHub Actions | — |
+| Version control | Git + GitHub | — |
+
+---
+
 ## 📊 Sumar
 
 | | |
@@ -374,3 +391,4 @@ Un developer construiește funcționalități pentru utilizatori. Un SDET constr
 | **Cost** | 100% gratuit |
 | **Focus** | Infrastructură de testare, cod de calitate producție, observabilitate |
 | **Avertisment** | Cel mai apropiat rol de software developer din lumea QA — necesită fundamente solide de programare |
+| **Pasul următor** | [QA Tech Lead](./cale-invatare-qa-tech-lead.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) |

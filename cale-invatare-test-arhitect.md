@@ -224,7 +224,7 @@ Documentezi deciziile arhitecturale importante, inclusiv contextul și alternati
 ```markdown
 ## ADR-001: Alegerea Playwright în locul Selenium pentru testele UI
 
-**Status:** Acceptat — Noiembrie 2025
+**Status:** Acceptat — Noiembrie 2026
 
 **Context:**
 Suita Selenium actuală are o rată de teste flaky de 15% și necesită
@@ -302,3 +302,4 @@ Ceea ce te diferențiază nu e numărul de ani, ci capacitatea de a gândi siste
 | **Nivel de final** | Test Arhitect / Principal QA Engineer |
 | **Focus** | Strategie, arhitectură framework, leadership tehnic |
 | **Diferență față de Senior QA** | Gândești la nivel de organizație, nu de proiect individual |
+| **Pasul următor** | [QA Manager](./cale-invatare-qa-manager.md) |

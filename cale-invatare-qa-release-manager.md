@@ -140,7 +140,7 @@ Trunk-based — potrivit pentru livrare continuă:
 
 **Release notes — comunicare clară:**
 ```markdown
-## v2.4.0 — 15 Noiembrie 2025
+## v2.4.0 — 15 Noiembrie 2026
 
 ### Funcționalități noi
 - Plată cu Apple Pay disponibilă în checkout
@@ -299,3 +299,4 @@ Release Train Engineer (SAFe) / DevOps Manager / Director of Engineering
 | **Nivel de final** | QA Release Manager |
 | **Focus** | Procese, coordonare, metrici, comunicare |
 | **Diferență față de QA clasic** | Nu testezi — creezi cadrul în care testarea se face corect |
+| **Pasul următor** | [QA Manager](./cale-invatare-qa-manager.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) |

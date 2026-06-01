@@ -75,7 +75,7 @@ var activeUsers = users.Where(u => u.Status == "active")
 
 | Unealtă | Scop | Link |
 |---------|------|------|
-| .NET SDK 8 LTS | Runtime și compilator C# | [→ Descarcă](https://dotnet.microsoft.com/download) |
+| .NET SDK 10 LTS | Runtime și compilator C# | [→ Descarcă](https://dotnet.microsoft.com/download) |
 | Visual Studio 2022 Community | IDE complet, gratuit | [→ Descarcă](https://visualstudio.microsoft.com/vs/community/) |
 | VS Code + extensia C# | IDE mai ușor, bun pentru proiecte mici | [→ Descarcă](https://code.visualstudio.com/) |
 | Git (cap. 1–3) | Control de versiune | [→ Pro Git Book](https://git-scm.com/book/en/v2) |
@@ -91,7 +91,7 @@ dotnet add package Microsoft.Playwright.NUnit
 
 # Build și instalare browsere
 dotnet build
-pwsh bin/Debug/net8.0/playwright.ps1 install
+pwsh bin/Debug/net10.0/playwright.ps1 install
 ```
 
 **Structura unui proiect .NET + Playwright:**
@@ -115,13 +115,13 @@ MyPlaywrightTests/
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.44.0" />
+    <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.52.0" />
     <PackageReference Include="NUnit" Version="4.1.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
   </ItemGroup>
@@ -268,8 +268,8 @@ public async Task LoginValidation_ShowsCorrectError(
 ```
 
 **Funcții avansate:**
-- **Codegen**: `pwsh bin/Debug/net8.0/playwright.ps1 codegen https://site.com`
-- **Trace Viewer**: `pwsh bin/Debug/net8.0/playwright.ps1 show-trace trace.zip`
+- **Codegen**: `pwsh bin/Debug/net10.0/playwright.ps1 codegen https://site.com`
+- **Trace Viewer**: `pwsh bin/Debug/net10.0/playwright.ps1 show-trace trace.zip`
 - **UI Mode**: `dotnet test -- NUnit.NumberOfTestWorkers=1` + `PWDEBUG=1`
 - Network mocking: `await Page.RouteAsync("**/api/users", route => route.FulfillAsync(...))`
 
@@ -379,7 +379,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright/dotnet:v1.44.0-jammy
+      image: mcr.microsoft.com/playwright/dotnet:v1.52.0-jammy
     steps:
       - uses: actions/checkout@v4
 
@@ -482,10 +482,10 @@ MyPlaywrightTests/
 
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
-| Limbaj | C# | 12 (.NET 8 LTS) |
-| Runtime | .NET | 8 LTS |
+| Limbaj | C# | 14 (.NET 10 LTS) |
+| Runtime | .NET | 10 LTS |
 | IDE | Visual Studio 2022 Community | latest |
-| UI + API Automation | Playwright for .NET | 1.44+ |
+| UI + API Automation | Playwright for .NET | 1.52+ |
 | Test framework | NUnit | 4.x |
 | Reporting | Allure + TRX | latest |
 | CI/CD | GitHub Actions | — |
@@ -502,6 +502,7 @@ MyPlaywrightTests/
 | **Nivel de start** | Zero experiență de programare |
 | **Nivel de final** | Junior–Mid Automation QA Engineer |
 | **Cost** | 100% gratuit |
-| **Limbaj** | C# (.NET 8) |
+| **Limbaj** | C# (.NET 10 LTS) |
 | **Framework** | Playwright |
 | **Avantaj principal** | Ecosistem Microsoft, ideal pentru enterprise și organizații cu stack .NET |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

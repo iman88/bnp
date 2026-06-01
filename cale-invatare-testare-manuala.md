@@ -33,7 +33,7 @@
 - Tipuri de testare: funcțională vs non-funcțională, black-box vs white-box, regresie vs smoke
 - **SDLC** (Software Development Life Cycle) — de unde vine software-ul
 - **STLC** (Software Testing Life Cycle) — locul testerului în proces
-- Modele: Waterfall, Agile/Scrum — cum lucrează echipele în 2025
+- Modele: Waterfall, Agile/Scrum — cum lucrează echipele în 2026
 - Rolul QA în echipă: QA vs Tester vs QE
 
 ---
@@ -220,7 +220,7 @@
 - [Ministry of Testing](https://www.ministryoftesting.com/) — cea mai mare comunitate globală de QA
 - [r/QualityAssurance](https://www.reddit.com/r/QualityAssurance/) — Reddit, activ, cu sfaturi reale de carieră
 - [Software Testing Help Forum](https://www.softwaretestinghelp.com/) — articole și forum
-- [Romanian QA Community](https://www.linkedin.com/groups/romanian-qa/) — LinkedIn, pentru networking local
+- Romanian QA Community — caută pe LinkedIn pentru networking local
 
 ---
 
@@ -234,4 +234,4 @@
 | **Cost** | 100% gratuit (+ ~200 EUR opțional pentru examen ISTQB) |
 | **Focus** | Testare funcțională web & mobile, documentație, bug reporting |
 | **Certificare** | ISTQB CTFL (opțional, recomandat) |
-| **Pasul următor** | [De la Testare Manuală la Automatizare](./cale-invatare-de-la-testare-manuala-la-automatizare-java.md) |
+| **Pasul următor** | [TypeScript + Playwright ⭐](./cale-invatare-de-la-testare-manuala-la-automatizare-typescript.md) · [Java + Selenium](./cale-invatare-de-la-testare-manuala-la-automatizare-java.md) · [Python + Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare-python.md) · [toate opțiunile](./README.md) |

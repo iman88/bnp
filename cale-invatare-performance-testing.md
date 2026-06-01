@@ -379,3 +379,4 @@ Nu prezenta tabele de numere brute stakeholderilor non-tehnici. Traduce în impa
 | **Limbaje** | JavaScript (k6) / GUI (JMeter) |
 | **Focus** | Load testing, analiză blocaje, integrare CI/CD |
 | **Avertisment** | Nu rula teste de performanță în producție fără aprobare |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [QA Tech Lead](./cale-invatare-qa-tech-lead.md) |

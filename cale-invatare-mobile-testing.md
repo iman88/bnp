@@ -53,7 +53,7 @@
 ```
 Android:
   → Android Studio (include emulatorul Android și ADB)
-  → Java JDK 17+ sau Python 3.12+
+  → Java JDK 21+ sau Python 3.13+
   → SDK Platform Tools (adb, fastboot)
 
 iOS (necesită Mac):
@@ -403,3 +403,4 @@ Nightly:
 | **Limbaj** | Python sau Java pentru Appium |
 | **Focus** | Android + iOS, Appium, testare manuală specifică mobile |
 | **Avertisment** | iOS necesită Mac pentru testare nativă și simulatoare |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [QA Tech Lead](./cale-invatare-qa-tech-lead.md) |

@@ -47,7 +47,7 @@
 | IntelliJ IDEA Community | IDE principal pentru Java | [→ Descarcă](https://www.jetbrains.com/idea/download/) |
 | Apache Maven | Gestionare dependențe | [→ Ghid](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) |
 | Git (cap. 1–3) | Control de versiune | [→ Pro Git Book](https://git-scm.com/book/en/v2) |
-| Java JDK 17+ | Runtime Java | [→ Adoptium](https://adoptium.net/) |
+| Java JDK 21+ | Runtime Java | [→ Adoptium](https://adoptium.net/) |
 
 **Ce vei învăța:**
 - Cum funcționează un proiect Maven (`pom.xml`, dependențe, lifecycle)
@@ -171,11 +171,11 @@ my-test-framework/
 
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
-| Limbaj | Java | 17 LTS |
+| Limbaj | Java | 21 LTS |
 | IDE | IntelliJ IDEA Community | latest |
 | Build tool | Maven | 3.9+ |
 | UI Automation | Selenium WebDriver | 4.x |
-| Test framework | JUnit 5 | 5.10+ |
+| Test framework | JUnit 5 | 5.11+ |
 | API Testing | REST Assured | 5.x |
 | API Client | Postman | latest |
 | Reporting | Allure | 2.x |
@@ -195,3 +195,4 @@ my-test-framework/
 | **Cost** | 100% gratuit |
 | **Limbaj** | Java |
 | **Focus** | Selenium UI + REST API Testing |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

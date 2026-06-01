@@ -283,3 +283,4 @@ Test Arhitect / Engineering Manager / QA Release Manager
 | **Focus** | Oameni, procese, reprezentare tehnică, metrici |
 | **Diferență față de Test Arhitect** | Mai aproape de echipă și execuție zilnică; mai puțin strategie și arhitectură pe termen lung |
 | **Diferență față de QA Release Manager** | Tech Lead-ul conduce echipa de QA; Release Manager-ul coordonează procesul de lansare cross-echipe |
+| **Pasul următor** | [QA Manager](./cale-invatare-qa-manager.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) |

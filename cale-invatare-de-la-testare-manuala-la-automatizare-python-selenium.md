@@ -47,7 +47,7 @@
 
 | Unealtă | Scop | Link |
 |---------|------|------|
-| Python 3.12+ | Runtime Python | [→ Descarcă](https://www.python.org/downloads/) |
+| Python 3.13+ | Runtime Python | [→ Descarcă](https://www.python.org/downloads/) |
 | VS Code + extensia Python | IDE principal | [→ Descarcă](https://code.visualstudio.com/) |
 | pip + venv | Gestionare pachete și medii virtuale | [→ Ghid](https://docs.python.org/3/library/venv.html) |
 | Git (cap. 1–3) | Control de versiune | [→ Pro Git Book](https://git-scm.com/book/en/v2) |
@@ -310,7 +310,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - run: pip install -r requirements.txt
       - run: pytest tests/ --alluredir=allure-results --headless
       - uses: actions/upload-artifact@v4
@@ -382,7 +382,7 @@ my-selenium-python-framework/
 
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
-| Limbaj | Python | 3.12+ |
+| Limbaj | Python | 3.13+ |
 | IDE | VS Code | latest |
 | UI Automation | Selenium WebDriver | 4.21+ |
 | Test framework | pytest | 8.x |
@@ -404,3 +404,4 @@ my-selenium-python-framework/
 | **Limbaj** | Python |
 | **Framework** | Selenium WebDriver 4.x |
 | **Față de Python + Playwright** | Selenium e mai răspândit în companii mature; Playwright e mai modern pentru proiecte noi |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

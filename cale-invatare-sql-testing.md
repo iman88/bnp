@@ -470,3 +470,4 @@ ORDER BY pg_total_relation_size(relid) DESC;
 | **Cost** | 100% gratuit |
 | **Focus** | Validare date, integritate, automatizare, performanță |
 | **Valoare imediată** | Poți aplica cunoștințele din Faza 1–2 din prima săptămână de lucru |
+| **Pasul următor** | [TypeScript + Playwright ⭐](./cale-invatare-de-la-testare-manuala-la-automatizare-typescript.md) · [Java + Selenium](./cale-invatare-de-la-testare-manuala-la-automatizare-java.md) · [Python + Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare-python.md) |

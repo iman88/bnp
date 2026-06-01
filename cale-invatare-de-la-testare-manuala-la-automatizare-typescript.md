@@ -289,12 +289,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.44.0-jammy
+      image: mcr.microsoft.com/playwright:v1.52.0-jammy
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: npm ci
       - run: npx playwright test
         env:
@@ -349,7 +349,7 @@ my-playwright-ts-framework/
         └── playwright.yml
 ```
 
-> 💼 **Primul job:** TypeScript + Playwright e combinația cea mai cerută în anunțurile de QA Automation din 2025–2026. Cu Fazele 1–3 și un portofoliu de pe GitHub, poți aplica la Junior Automation QA. Mulți angajatori preferă Playwright față de Selenium pentru proiectele noi.
+> 💼 **Primul job:** TypeScript + Playwright e combinația cea mai cerută în anunțurile de QA Automation din 2026–2027. Cu Fazele 1–3 și un portofoliu de pe GitHub, poți aplica la Junior Automation QA. Mulți angajatori preferă Playwright față de Selenium pentru proiectele noi.
 
 ---
 
@@ -391,10 +391,10 @@ my-playwright-ts-framework/
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
 | Limbaj | TypeScript | 5.x |
-| Runtime | Node.js | 20 LTS |
+| Runtime | Node.js | 22 LTS |
 | IDE | VS Code + Playwright extension | latest |
 | Build tool | npm / pnpm | latest |
-| UI + API Automation | Playwright | 1.44+ |
+| UI + API Automation | Playwright | 1.52+ |
 | Test framework | Playwright Test (built-in) | — |
 | Reporting | Allure + Playwright HTML | latest |
 | CI/CD | GitHub Actions | — |
@@ -415,3 +415,4 @@ my-playwright-ts-framework/
 | **Focus** | Playwright UI + API Testing (all-in-one) |
 | **Avantaj față de Java** | Sintaxă modernă, UI Mode, test runner built-in, ecosistem web nativ |
 | **Avantaj față de Python** | Tipare strictă, autocompletare superioară, sharding nativ în Playwright |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

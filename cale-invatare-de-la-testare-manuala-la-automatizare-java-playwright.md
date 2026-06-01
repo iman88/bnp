@@ -48,7 +48,7 @@
 | IntelliJ IDEA Community | IDE principal pentru Java | [→ Descarcă](https://www.jetbrains.com/idea/download/) |
 | Apache Maven | Gestionare dependențe | [→ Ghid](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) |
 | Git (cap. 1–3) | Control de versiune | [→ Pro Git Book](https://git-scm.com/book/en/v2) |
-| Java JDK 17+ | Runtime Java | [→ Adoptium](https://adoptium.net/) |
+| Java JDK 21+ | Runtime Java | [→ Adoptium](https://adoptium.net/) |
 
 **`pom.xml` — dependențe de start:**
 ```xml
@@ -56,12 +56,12 @@
     <dependency>
         <groupId>com.microsoft.playwright</groupId>
         <artifactId>playwright</artifactId>
-        <version>1.44.0</version>
+        <version>1.52.0</version>
     </dependency>
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
-        <version>5.10.2</version>
+        <version>5.11.0</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
@@ -283,7 +283,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright/java:v1.44.0-jammy
+      image: mcr.microsoft.com/playwright/java:v1.52.0-jammy
     steps:
       - uses: actions/checkout@v4
       - name: Run tests
@@ -350,11 +350,11 @@ junit.jupiter.execution.parallel.config.strategy=dynamic
 
 | Categorie | Tehnologie | Versiune recomandată |
 |-----------|-----------|----------------------|
-| Limbaj | Java | 17 LTS |
+| Limbaj | Java | 21 LTS |
 | IDE | IntelliJ IDEA Community | latest |
 | Build tool | Maven | 3.9+ |
-| UI + API Automation | Playwright for Java | 1.44+ |
-| Test framework | JUnit 5 | 5.10+ |
+| UI + API Automation | Playwright for Java | 1.52+ |
+| Test framework | JUnit 5 | 5.11+ |
 | API Testing (alternativ) | REST Assured | 5.x |
 | Reporting | Allure | 2.x |
 | CI/CD | GitHub Actions | — |
@@ -374,3 +374,4 @@ junit.jupiter.execution.parallel.config.strategy=dynamic
 | **Limbaj** | Java |
 | **Framework** | Playwright (modern) |
 | **Față de Java + Selenium** | Auto-wait, trace viewer, codegen, assertions native — fără configurare extra |
+| **Pasul următor** | [SDET](./cale-invatare-sdet.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) |

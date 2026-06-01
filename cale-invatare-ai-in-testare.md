@@ -303,7 +303,7 @@ Claude navighează, execută, face screenshots și îți dă un raport.
 
 | Categorie | Unealtă | Cost |
 |-----------|---------|------|
-| LLM general | Claude 3.7 Sonnet / ChatGPT-4o | Freemium |
+| LLM general | Claude Sonnet 4.6 / ChatGPT-4o | Freemium |
 | AI coding assistant | GitHub Copilot | $10/lună |
 | IDE cu AI | Cursor | Freemium |
 | Visual AI testing | Applitools Eyes | Trial gratuit |
@@ -325,5 +325,5 @@ Claude navighează, execută, face screenshots și îți dă un raport.
 | **Nivel de final** | AI-augmented QA Engineer |
 | **Cost** | Majoritar gratuit (unele unelte au trial sau tier gratuit) |
 | **Focus** | Productivitate 3–5x, nu înlocuirea rolului |
-| **Pasul următor** | Automatizare cu Java sau [Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare.md) ca fundament solid |
+| **Pasul următor** | Automatizare cu [Java](./cale-invatare-de-la-testare-manuala-la-automatizare-java.md) sau [Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare-typescript.md) ca fundament solid |
 | **Avertisment** | Domeniu în schimbare rapidă — reevaluează uneltele la 6 luni |
