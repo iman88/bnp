@@ -562,7 +562,6 @@ Acceptul îți deschide ușa. Entuziasmul din primele zile e real și e bun — 
 | Resursă | Durată | Link |
 |---------|--------|------|
 | The Science of Well-Being — Yale / Coursera (Laurie Santos) | ~10h | [→ Deschide](https://www.coursera.org/learn/the-science-of-well-being) |
-| Work-Life Balance — LinkedIn Learning | ~2h | [→ Deschide](https://www.linkedin.com/learning/topics/work-life-balance) |
 | Burnout — Harvard Business Review | ~1h | [→ Deschide](https://hbr.org/topic/subject/burnout) |
 
 ### Înainte să pleci de la fostul job
