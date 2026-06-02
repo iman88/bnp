@@ -17,7 +17,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 | Știu testare manuală, vreau să automatizez | [TypeScript + Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare-typescript.md) ⭐ |
 | Vreau să testez aplicații mobile | [Mobile Testing](./cale-invatare-mobile-testing.md) |
 | Mă interesează securitatea sau performanța | [Security Testing](./cale-invatare-security-testing.md) · [Performance Testing](./cale-invatare-performance-testing.md) |
-| Vreau să folosesc AI în munca mea | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) · [AI Full Stack](./cale-invatare-ai-in-testare.md) |
+| Vreau să folosesc AI în munca mea | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) · [AI Full Stack](./cale-invatare-ai-in-testare-full-stack.md) |
 | Sunt senior și vreau să avansez | [QA Tech Lead](./cale-invatare-qa-tech-lead.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) · [QA Manager](./cale-invatare-qa-manager.md) |
 | Caut un job, schimb jobul sau am primit o ofertă | [Interviuri & Joburi](./cale-invatare-interviuri-si-joburi.md) |
 
@@ -95,7 +95,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 |--------|-------------|-------|--------|
 | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) | Testeri manuali, fără cod | Prompt engineering · Platforme no-code · Analiză buguri | ~1–2 luni |
 | [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) | Automation QA cu experiență | Copilot · Cursor · Generare teste · Autonomous testing | ~2–3 luni |
-| [AI în Testare — Full Stack](./cale-invatare-ai-in-testare.md) | QA Tech Lead · Test Arhitect · Senior cu 5+ ani experiență | Tot ce e mai sus + CI/CD cu AI · Strategie la nivel de echipă | ~3–4 luni |
+| [AI în Testare — Full Stack](./cale-invatare-ai-in-testare-full-stack.md) | QA Tech Lead · Test Arhitect · Senior cu 5+ ani experiență | Tot ce e mai sus + CI/CD cu AI · Strategie la nivel de echipă | ~3–4 luni |
 
 > **Cum alegi:** Dacă nu scrii cod → **AI pentru Testeri Manuali**. Dacă scrii teste automate → **AI pentru Automation Engineers**. Full Stack e pentru cei care conduc echipe sau definesc strategia de testare la nivel de organizație — nu e un pas obligatoriu, e o direcție separată.
 

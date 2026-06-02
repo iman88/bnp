@@ -326,4 +326,4 @@ Vineri (review):
 | **Nivel de start** | Automation engineer cu experiență de bază (Selenium/Playwright) |
 | **Câștig principal** | Productivitate 3–5x în scrierea și mentenanța testelor |
 | **Cost** | Mixt — unele gratuite, unele $10–20/lună |
-| **Pasul următor** | [AI în Testare — Full Stack](./cale-invatare-ai-in-testare.md) pentru o perspectivă completă |
+| **Pasul următor** | [AI în Testare — Full Stack](./cale-invatare-ai-in-testare-full-stack.md) pentru o perspectivă completă |
