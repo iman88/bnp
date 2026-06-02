@@ -56,10 +56,10 @@ Un QA Manager e prins între presiunile de sus (management, business, deadline-u
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Interviuri tehnice pentru QA — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/hiring-qa-engineers) |
+| Hiring QA Engineers — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/topics/qa-careers) |
 | Performance Reviews that Work — HBR | ~1h | [→ Deschide](https://hbr.org/2019/11/get-the-most-out-of-your-performance-review) |
 | Career Ladders în QA — progression.fyi | referință | [→ Deschide](https://progression.fyi/) |
-| Building Psychological Safety — Google re:Work | ~2h | [→ Deschide](https://rework.withgoogle.com/guides/understanding-team-effectiveness/) |
+| Building Psychological Safety — CCL | ~2h | [→ Deschide](https://www.ccl.org/articles/leading-effectively-articles/what-is-psychological-safety-at-work/) |
 
 **Procesul de angajare — ce contează cu adevărat:**
 
@@ -127,7 +127,7 @@ O concediere făcută corect e mai bună decât una evitată. Angajatul știe c�
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Quality Engineering Strategy — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/articles/quality-strategy) |
+| Quality Engineering Strategy — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/topics/test-strategy) |
 | Accelerate — DORA Research | rezumat gratuit | [→ Deschide](https://dora.dev/research/) |
 | Cost of Quality — ASQ | ~2h | [→ Deschide](https://asq.org/quality-resources/cost-of-quality) |
 | OKRs pentru echipe de QA | ~1h | [→ Deschide](https://www.whatmatters.com/faqs/okr-meaning-definition-example) |
@@ -186,7 +186,7 @@ Riscuri pentru Q1 2026:
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Engineering Budget Planning — LeadDev | ~1h | [→ Deschide](https://leaddev.com/team/engineering-budget-planning) |
-| ROI in Test Automation — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/calculating-roi-of-test-automation) |
+| ROI in Test Automation — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/topics/test-automation) |
 | Vendor Evaluation Framework | ~1h | [→ Deschide](https://www.gartner.com/en/information-technology/glossary/vendor-evaluation) |
 
 **Cum justifici investiții în QA față de management:**

@@ -64,7 +64,7 @@
 |---------|--------|------|
 | Selenium WebDriver with Java — TAU | ~8h | [→ Deschide](https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/) |
 | JUnit 5 — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/junit5-tutorial/) |
-| Page Object Model — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/page-object-model-java/) |
+| Page Object Models — Selenium Docs | ~2h | [→ Deschide](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/) |
 | Selenium 4 Official Docs | referință | [→ Deschide](https://www.selenium.dev/documentation/) |
 
 **Ce vei învăța:**
@@ -91,7 +91,7 @@
 | API Testing Path (v12) — Postman Academy | ~2h 35min | [→ Deschide](https://academy.postman.com/path/api-testing-path-v12) |
 | REST Assured — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/) |
 | REST Assured Official Docs | referință | [→ Deschide](https://rest-assured.io/) |
-| Contract Testing cu Pact — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/contract-tests/) |
+| Contract Tests with Pact — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/pact-contract-tests/) |
 
 **Ce vei învăța:**
 - HTTP methods: `GET`, `POST`, `PUT`, `DELETE`, `PATCH`
@@ -112,9 +112,9 @@
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| GitHub Actions — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/github-actions-tutorial/) |
-| Allure Reports — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/test-reporting-with-allure/) |
-| Selenium Grid + Docker | ~3h | [→ Ghid](https://www.lambdatest.com/blog/docker-selenium-grid/) |
+| GitHub Actions for Testing — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/github-actions-for-testing/) |
+| Allure Reports — Docs oficiale | ~2h | [→ Deschide](https://allurereport.org/docs/junit5/) |
+| Selenium Grid — Documentație oficială | ~3h | [→ Ghid](https://www.selenium.dev/documentation/grid/) |
 | Portofoliu GitHub public | continuu | [→ GitHub](https://github.com/) |
 
 **Ce vei învăța:**

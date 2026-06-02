@@ -17,7 +17,7 @@ Resursele sunt selectate din platforme recunoscute la nivel internațional: Test
 | Știu testare manuală, vreau să automatizez | [TypeScript + Playwright](./cale-invatare-de-la-testare-manuala-la-automatizare-typescript.md) ⭐ |
 | Vreau să testez aplicații mobile | [Mobile Testing](./cale-invatare-mobile-testing.md) |
 | Mă interesează securitatea sau performanța | [Security Testing](./cale-invatare-security-testing.md) · [Performance Testing](./cale-invatare-performance-testing.md) |
-| Vreau să folosesc AI în munca mea | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) · [AI pentru Automation](./cale-invatare-ai-in-testare-automatizare.md) |
+| Vreau să folosesc AI în munca mea | [AI pentru Testeri Manuali](./cale-invatare-ai-in-testare-manual.md) · [AI pentru Automation Engineers](./cale-invatare-ai-in-testare-automatizare.md) · [AI Full Stack](./cale-invatare-ai-in-testare.md) |
 | Sunt senior și vreau să avansez | [QA Tech Lead](./cale-invatare-qa-tech-lead.md) · [Test Arhitect](./cale-invatare-test-arhitect.md) · [QA Manager](./cale-invatare-qa-manager.md) |
 | Caut un job, schimb jobul sau am primit o ofertă | [Interviuri & Joburi](./cale-invatare-interviuri-si-joburi.md) |
 

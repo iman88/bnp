@@ -156,7 +156,7 @@ page.locator("[data-testid='submit-button']").click()
 **Curs recomandat:**
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Applitools Visual AI Course — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/visual-testing-html-tutorial/) |
+| Automated Visual Testing with Java — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/) |
 
 ---
 
@@ -168,7 +168,7 @@ page.locator("[data-testid='submit-button']").click()
 |---------|---------|------|
 | AgentQL | Locatori în limbaj natural — AI găsește elementul indiferent de DOM | [→ Deschide](https://www.agentql.com/) |
 | Browser Use | Agent AI care navighează browser autonom | [→ Deschide](https://github.com/browser-use/browser-use) |
-| Playwright MCP + Claude | Claude Code controlează un browser real prin MCP | [→ Deschide](https://playwright.dev/docs/claude) |
+| Playwright MCP + Claude | Claude Code controlează un browser real prin MCP | [→ Deschide](https://playwright.dev/docs/getting-started-mcp) |
 
 **AgentQL — locatori care nu se rup:**
 ```python

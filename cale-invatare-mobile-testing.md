@@ -25,7 +25,7 @@
 | Mobile Testing Tutorial — Guru99 | ~4h | [→ Deschide](https://www.guru99.com/mobile-testing.html) |
 | Android Basics — Google (developer.android.com) | ~3h | [→ Deschide](https://developer.android.com/guide) |
 | iOS App Architecture — Apple Developer | ~2h | [→ Deschide](https://developer.apple.com/documentation) |
-| Mobile Testing Fundamentals — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/mobile-testing-with-appium/) |
+| Mobile Testing with Appium and Java — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/appium-java-tutorial-1/) |
 
 **Android vs iOS — diferențele care contează pentru testare:**
 
@@ -135,7 +135,7 @@ Fără Mac pentru iOS:
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Appium Documentation — oficială | referință | [→ Deschide](https://appium.io/docs/en/latest/) |
-| Mobile Testing with Appium — TAU | ~5h | [→ Deschide](https://testautomationu.applitools.com/mobile-testing-with-appium/) |
+| Mobile Testing with Appium and Java — TAU | ~5h | [→ Deschide](https://testautomationu.applitools.com/appium-java-tutorial-1/) |
 | Appium Inspector — GitHub | unealtă | [→ Deschide](https://github.com/appium/appium-inspector) |
 | WebdriverIO + Appium — Docs | referință | [→ Deschide](https://webdriver.io/docs/appium/) |
 

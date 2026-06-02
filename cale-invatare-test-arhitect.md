@@ -51,8 +51,8 @@
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Agile Testing Quadrants — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/agile-testing-tutorial/) |
-| Test Strategy — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/articles/test-strategy) |
+| Setting a Foundation for Successful Test Automation — TAU | ~2h | [→ Deschide](https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/) |
+| Test Strategy — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/topics/test-strategy) |
 | Testing Pyramid — Martin Fowler | ~1h | [→ Deschide](https://martinfowler.com/articles/practical-test-pyramid.html) |
 | Google Testing Blog | referință continuă | [→ Deschide](https://testing.googleblog.com/) |
 
@@ -100,9 +100,9 @@ Nu totul merită același nivel de testare. Prioritizezi în funcție de:
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Test Automation Architecture — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/test-automation-framework-intro/) |
-| Design Patterns for Test Automation — Nikolay Advolodkin | ~3h | [→ Deschide](https://testautomationu.applitools.com/) |
-| Continuous Testing — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/continuous-testing/) |
+| Setting a Foundation for Successful Test Automation — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/) |
+| Design Patterns — Refactoring.guru | ~3h | [→ Deschide](https://refactoring.guru/design-patterns) |
+| Continuous Delivery — continuousdelivery.com | ~3h | [→ Deschide](https://continuousdelivery.com/) |
 
 **Principii de proiectare a unui framework:**
 

@@ -24,7 +24,7 @@
 |---------|--------|------|
 | SQL Tutorial — SQLZoo | ~8h | [→ Deschide](https://sqlzoo.net/wiki/SQL_Tutorial) |
 | SQL pentru testeri — Guru99 | ~4h | [→ Deschide](https://www.guru99.com/sql-for-testers.html) |
-| Interactive SQL — Mode Analytics | ~5h | [→ Deschide](https://mode.com/sql-tutorial/) |
+| Interactive SQL — ThoughtSpot (fostul Mode) | ~5h | [→ Deschide](https://mode.com/sql-tutorial/) |
 | SQLite Online — practică directă în browser | referință | [→ Deschide](https://sqliteonline.com/) |
 
 **De ce SQL e esențial pentru un QA:**
@@ -189,8 +189,8 @@ HAVING COUNT(*) > 1;
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Advanced SQL — Mode Analytics | ~4h | [→ Deschide](https://mode.com/sql-tutorial/sql-window-functions/) |
-| Window Functions — PostgreSQL Tutorial | ~3h | [→ Deschide](https://www.postgresqltutorial.com/postgresql-window-function/) |
+| Advanced SQL — ThoughtSpot (fostul Mode) | ~4h | [→ Deschide](https://mode.com/sql-tutorial/sql-window-functions/) |
+| Window Functions — PostgreSQL Tutorial | ~3h | [→ Deschide](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-window-function/) |
 | CTEs and Subqueries — SQLZoo | ~2h | [→ Deschide](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial) |
 
 **Window Functions — analize pe seturi de date:**
@@ -274,7 +274,7 @@ WHERE u.status = 'suspended'
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Database Testing with Python — RealPython | ~3h | [→ Deschide](https://realpython.com/python-sql-libraries/) |
-| pytest-postgresql — Docs | ~2h | [→ Deschide](https://pytest-postgresql.readthedocs.io/) |
+| pytest-postgresql — GitHub | ~2h | [→ Deschide](https://github.com/ClearcodeHQ/pytest-postgresql) |
 | SQLAlchemy pentru teste — Docs | ~3h | [→ Deschide](https://docs.sqlalchemy.org/en/20/orm/session_basics.html) |
 
 **Verificare date în teste Pytest:**
@@ -360,7 +360,7 @@ def create_test_order(db_session, user_id: int, products: list) -> int:
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| EXPLAIN ANALYZE — PostgreSQL Tutorial | ~2h | [→ Deschide](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-explain/) |
+| EXPLAIN ANALYZE — PostgreSQL Docs | ~2h | [→ Deschide](https://www.postgresql.org/docs/current/sql-explain.html) |
 | SQL Performance Explained — Use The Index, Luke | ~4h | [→ Deschide](https://use-the-index-luke.com/) |
 
 **EXPLAIN ANALYZE — cum citești planul de execuție:**

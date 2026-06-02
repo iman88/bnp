@@ -51,8 +51,8 @@
 | Resursă | Durată | Link |
 |---------|--------|------|
 | How to Write a QA Resume — Software Testing Help | ~2h | [→ Deschide](https://www.softwaretestinghelp.com/qa-tester-resume/) |
-| Resume Writing Guide — The Muse | ~1h | [→ Deschide](https://www.themuse.com/advice/how-to-write-a-resume) |
-| GitHub Portfolio for QA Engineers — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/building-a-testing-portfolio) |
+| Resume Writing Guide — Tech Interview Handbook | ~1h | [→ Deschide](https://www.techinterviewhandbook.org/resume/) |
+| Testing Practice Websites for Portfolio — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/websites-to-practice-testing) |
 
 ### Ce pune recruterul pe CV-ul tău în primele 10 secunde
 
@@ -195,7 +195,7 @@ Nu trebuie să fii expert. Trebuie să poți:
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Self-Assessment for QA Engineers — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/career-development-for-testers) |
+| Career Development for QA Engineers — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/topics/qa-careers) |
 | Skills Matrix Template — Atlassian | ~30min | [→ Deschide](https://www.atlassian.com/team-playbook/plays/skills-matrix) |
 
 ### Harta competențelor — fă-ți o evaluare sinceră
@@ -323,9 +323,9 @@ Nu memora răspunsuri — înțelege conceptele. Dacă înțelegi de ce există 
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| STAR Method Interview Answers — The Balance Careers | ~1h | [→ Deschide](https://www.thebalancemoney.com/what-is-the-star-interview-response-technique-2061629) |
-| Behavioral Interview Questions — LinkedIn | ~2h | [→ Deschide](https://www.linkedin.com/learning/behavioral-interview-techniques) |
-| How to Prepare for a QA Behavioral Interview — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/how-to-prepare-for-a-software-testing-interview) |
+| STAR Method Behavioral Interviews — MIT Career Center | ~1h | [→ Deschide](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/) |
+| Behavioral Interview Questions — LinkedIn Learning | ~2h | [→ Deschide](https://www.linkedin.com/learning/behavioral-interview-techniques) |
+| Preparing for QA Interviews — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/topics/qa-careers) |
 
 ### Metoda STAR
 
@@ -411,7 +411,7 @@ Nu încheia cu „Nu am întrebări." Arată că gândești dincolo de interviu.
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Career Decisions Framework — Lenny's Newsletter | ~30min | [→ Deschide](https://www.lennysnewsletter.com/p/how-to-find-your-next-role) |
-| Should You Take That Job? — Harvard Business Review | ~30min | [→ Deschide](https://hbr.org/2021/01/how-to-evaluate-a-job-offer) |
+| Should You Take That Job? — Harvard Business Review | ~30min | [→ Deschide](https://hbr.org/topic/subject/career-transitions) |
 | Glassdoor — Company Research | referință | [→ Deschide](https://www.glassdoor.com/index.htm) |
 
 Principiul e simplu: la orice moment din carieră, un job merită să fie acolo dacă **câștigi bine** sau **înveți mult**. Ideal, ambele. Dar rar există ambele simultan, mai ales la început.
@@ -490,8 +490,8 @@ Asta nu înseamnă că nu poți lucra în nișe — înseamnă că intri cu ochi
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Salary Negotiation Guide — Levels.fyi | ~1h | [→ Deschide](https://www.levels.fyi/blog/salary-negotiation-guide.html) |
-| How to Negotiate Your Salary — freeCodeCamp | ~30min | [→ Deschide](https://www.freecodecamp.org/news/salary-negotiation-how-not-to-set-a-bunch-of-money-on-fire-605aabb9a1a5/) |
+| Salary Negotiation Guide — Levels.fyi | ~1h | [→ Deschide](https://www.levels.fyi/blog/) |
+| How to Negotiate Salary — Glassdoor | ~30min | [→ Deschide](https://www.glassdoor.com/blog/guide/how-to-negotiate-salary/) |
 | Hays Salary Guide Romania | referință | [→ Deschide](https://www.hays.ro/salary-guide) |
 
 ### Cum afli ce să ceri

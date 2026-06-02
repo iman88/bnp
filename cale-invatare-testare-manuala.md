@@ -24,9 +24,9 @@
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Software Testing Tutorial — Guru99 | ~6h | [→ Deschide](https://www.guru99.com/software-testing.html) |
-| Introduction to Software Testing — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/articles/an-introduction-to-software-testing) |
+| Introduction to Software Testing — Ministry of Testing | ~3h | [→ Deschide](https://www.ministryoftesting.com/articles/what-is-software-testing) |
 | SDLC & STLC Explained — Software Testing Help | ~2h | [→ Deschide](https://www.softwaretestinghelp.com/software-testing-life-cycle/) |
-| Agile Testing Overview — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/agile-testing-tutorial/) |
+| Setting a Foundation for Successful Test Automation — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/) |
 
 **Ce vei învăța:**
 - Ce e testarea software și de ce există — costul unui bug găsit târziu vs devreme
@@ -46,7 +46,7 @@
 |---------|--------|------|
 | Test Design Techniques — Guru99 | ~4h | [→ Deschide](https://www.guru99.com/software-testing-techniques.html) |
 | Black Box Testing Techniques — Software Testing Help | ~3h | [→ Deschide](https://www.softwaretestinghelp.com/black-box-testing/) |
-| Exploratory Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/exploratory-testing) |
+| Exploratory Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/software-testing-glossary/exploratory-testing) |
 | Boundary Value Analysis & Equivalence Partitioning — Guru99 | ~2h | [→ Deschide](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html) |
 
 **Ce vei învăța:**
@@ -116,7 +116,7 @@
 | Postman (basics) | Testare manuală API — trimis requests, verificat responses | [→ Cale Postman](./cale-invatare-postman.md) |
 | SQL basics | Verificare date în baza de date, query-uri de validare | [→ SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial) |
 | Git basics | Versionare, creare branch, pull request, code review | [→ Pro Git cap. 1–3](https://git-scm.com/book/en/v2) |
-| Jira / TestRail | Management test cases și bug tracking | [→ TestRail Intro](https://www.gurock.com/testrail/docs/getting-started/) |
+| Jira / TestRail | Management test cases și bug tracking | [→ TestRail](https://www.gurock.com/testrail/) |
 
 **Ce vei învăța:**
 

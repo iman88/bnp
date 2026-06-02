@@ -24,7 +24,7 @@
 |---------|--------|------|
 | Performance Testing Guide — Guru99 | ~4h | [→ Deschide](https://www.guru99.com/performance-testing.html) |
 | Performance Testing — BlazeMeter University | ~3h | [→ Deschide](https://www.blazemeter.com/university) |
-| Introduction to Performance Testing — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/performance-testing-tutorial/) |
+| Tools and Techniques for Performance Testing — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/performance-and-load-testing/) |
 
 **Tipuri de teste de performanță:**
 
@@ -144,7 +144,7 @@ HTTP Header Manager:
 |---------|--------|------|
 | k6 Documentation — Grafana | referință | [→ Deschide](https://k6.io/docs/) |
 | k6 Learn — Grafana | ~4h | [→ Deschide](https://k6.io/learn/) |
-| k6 School — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/k6-load-testing-tutorial/) |
+| k6 Getting Started — Grafana Docs | ~3h | [→ Deschide](https://k6.io/docs/get-started/running-k6/) |
 
 **Instalare:**
 ```bash

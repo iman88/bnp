@@ -90,7 +90,7 @@ my-selenium-python/
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Selenium with Python — Docs oficiale | referință | [→ Deschide](https://selenium-python.readthedocs.io/) |
-| Selenium WebDriver with Python — TAU | ~5h | [→ Deschide](https://testautomationu.applitools.com/selenium-webdriver-tutorial-python/) |
+| Selenium WebDriver with Python — TAU | ~5h | [→ Deschide](https://testautomationu.applitools.com/selenium-webdriver-python-tutorial/) |
 | Selenium 4 Official Docs | referință | [→ Deschide](https://www.selenium.dev/documentation/) |
 
 **Ce vei învăța:**

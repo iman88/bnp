@@ -69,7 +69,7 @@ heapq.heapify(test_queue)
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Test Infrastructure at Scale — Google Testing Blog | ~2h | [→ Deschide](https://testing.googleblog.com/) |
-| Building Test Frameworks — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/test-automation-framework-intro/) |
+| Setting a Foundation for Successful Test Automation — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/) |
 | Docker pentru developeri — Play with Docker | ~4h | [→ Deschide](https://training.play-with-docker.com/) |
 | Kubernetes Basics — kubernetes.io | ~5h | [→ Deschide](https://kubernetes.io/docs/tutorials/kubernetes-basics/) |
 

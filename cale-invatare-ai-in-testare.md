@@ -1,6 +1,6 @@
-# 🤖 AI în Testare — Learning Path
+# 🤖 AI în Testare — Full Stack
 
-> Prompt Engineering · AI Coding Assistants · Platforme AI-powered · De la QA la AI-augmented QA · ~3–4 luni part-time
+> Prompt Engineering · AI Coding Assistants · Platforme AI-powered · CI/CD cu AI · Strategie echipă · ~3–4 luni part-time
 
 ---
 
@@ -49,7 +49,7 @@
 | Prompt Engineering Guide — promptingguide.ai | ~4h | [→ Deschide](https://www.promptingguide.ai/) |
 | ChatGPT Prompt Engineering for Developers — DeepLearning.AI | ~2h | [→ Deschide](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
 | Claude for QA — Anthropic Docs | referință | [→ Deschide](https://docs.anthropic.com/en/docs/welcome) |
-| Prompt Engineering for QA — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/ai-and-prompt-engineering-for-test-automation/) |
+| ChatGPT Prompt Engineering for Developers — DeepLearning.AI | ~3h | [→ Deschide](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
 
 **Ce vei învăța:**
 - **Zero-shot vs Few-shot prompting** — când să dai exemple și când nu e nevoie
@@ -157,8 +157,8 @@ pași neclari și duplicate. [test cases]"
 **Curs recomandat:**
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Applitools Visual AI Course — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/visual-testing-html-tutorial/) |
-| Modern Test Automation with AI — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/ai-ml-testing/) |
+| Automated Visual Testing with Java — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/automated-visual-testing-a-fast-path-to-test-automation-success/) |
+| Modern Functional Testing Through Visual AI — TAU | ~4h | [→ Deschide](https://testautomationu.applitools.com/modern-functional-testing/) |
 
 ---
 
@@ -226,9 +226,9 @@ Distribuie statusurile realist: 60% delivered, 20% shipped, 15% pending, 5% canc
 | Resursă | Durată | Link |
 |---------|--------|------|
 | AgentQL — AI Web Scraping & Testing | ~2h | [→ Deschide](https://www.agentql.com/) |
-| Playwright MCP + Claude | tutorial | [→ Deschide](https://playwright.dev/docs/claude) |
+| Playwright MCP + Claude | tutorial | [→ Deschide](https://playwright.dev/docs/getting-started-mcp) |
 | Browser Use — AI Browser Automation | ~2h | [→ Deschide](https://github.com/browser-use/browser-use) |
-| The Future of AI in Testing — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/the-future-of-ai-in-testing) |
+| AI in Testing — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/topics/ai-testing) |
 
 **Ce vei învăța:**
 

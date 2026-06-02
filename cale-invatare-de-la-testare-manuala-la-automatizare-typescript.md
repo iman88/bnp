@@ -25,7 +25,7 @@
 | JavaScript — The Complete Guide — freeCodeCamp | ~30h | [→ Deschide](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) |
 | JavaScript.info — The Modern JavaScript Tutorial | referință | [→ Deschide](https://javascript.info/) |
 | TypeScript Handbook — Docs oficiale | ~6h | [→ Deschide](https://www.typescriptlang.org/docs/handbook/intro.html) |
-| TypeScript for Beginners — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/typescript-tutorial/) |
+| TypeScript Full Course — freeCodeCamp (YouTube) | ~3h | [→ Deschide](https://www.youtube.com/watch?v=30LWjhZzg50) |
 
 **Ce vei învăța:**
 

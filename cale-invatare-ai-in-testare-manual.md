@@ -22,7 +22,7 @@
 | Resursă | Durată | Link |
 |---------|--------|------|
 | Prompt Engineering Guide — promptingguide.ai | ~3h | [→ Deschide](https://www.promptingguide.ai/) |
-| Prompt Engineering for QA — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/ai-and-prompt-engineering-for-test-automation/) |
+| ChatGPT Prompt Engineering for Developers — DeepLearning.AI | ~3h | [→ Deschide](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
 
 **Ce vei învăța:**
 - **Zero-shot vs Few-shot** — când dai exemple AI-ului și când nu e nevoie
@@ -107,7 +107,7 @@ câmpuri goale, valori la limită. Format: tabel markdown.
 **Resurse suplimentare:**
 | Resursă | Durată | Link |
 |---------|--------|------|
-| AI for Test Design — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/ai-in-software-testing) |
+| AI in Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/topics/ai-testing) |
 | ChatGPT for Testers — Udemy (gratuit periodic) | ~3h | [→ Caută](https://www.udemy.com/) |
 
 ---
@@ -118,9 +118,9 @@ câmpuri goale, valori la limită. Format: tabel markdown.
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| How to Write Better Bug Reports Using AI — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/using-ai-to-improve-bug-reports) |
+| AI in Testing — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/topics/ai-testing) |
 | ChatGPT Prompt Engineering for Developers — DeepLearning.AI | ~2h | [→ Deschide](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
-| Using AI to Analyze Log Files — Semaphore CI Blog | ~1h | [→ Deschide](https://semaphoreci.com/blog/ai-software-testing) |
+| Using AI to Analyze Log Files — Google Testing Blog | ~1h | [→ Deschide](https://testing.googleblog.com/) |
 
 **Îmbunătățire bug reports:**
 ```
@@ -197,8 +197,8 @@ Bug 2: [descriere]
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| AI in Your QA Workflow — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/ai-in-software-testing) |
-| Practical AI for Testers — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/ai-and-prompt-engineering-for-test-automation/) |
+| AI in Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/topics/ai-testing) |
+| Practical AI for Testers — DeepLearning.AI | ~3h | [→ Deschide](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
 | Getting Started with Claude — Anthropic Docs | ~1h | [→ Deschide](https://docs.anthropic.com/en/docs/welcome) |
 
 **Rutina zilnică recomandată:**

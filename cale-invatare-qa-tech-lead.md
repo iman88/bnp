@@ -115,8 +115,8 @@ Scopul e să ajungi cât mai repede la nivelul 3–4 cu fiecare membru al echipe
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| QA in Agile — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/agile-testing-tutorial/) |
-| Shift-Left Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/shift-left-testing) |
+| Setting a Foundation for Successful Test Automation — TAU | ~3h | [→ Deschide](https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/) |
+| Shift-Left Testing — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/software-testing-glossary/shift-left-testing) |
 | Three Amigos — Agile Alliance | ~1h | [→ Deschide](https://www.agilealliance.org/glossary/three-amigos/) |
 | Defect Triage — Software Testing Help | ~1h | [→ Deschide](https://www.softwaretestinghelp.com/defect-triage/) |
 
@@ -161,7 +161,7 @@ Ca QA Tech Lead:
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| Quality vs Speed — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/articles/quality-vs-speed) |
+| Quality vs Speed — Ministry of Testing | ~1h | [→ Deschide](https://www.ministryoftesting.com/testbash-sessions/speed-vs-quality-can-you-have-both) |
 | Technical Debt — Martin Fowler | ~1h | [→ Deschide](https://martinfowler.com/bliki/TechnicalDebt.html) |
 | The Cost of Poor Quality — ASQ | ~1h | [→ Deschide](https://asq.org/quality-resources/cost-of-quality) |
 
@@ -206,7 +206,7 @@ Oferi mereu opțiuni cu consecințe clare. Nu decizi tu unilateral — dar asigu
 
 | Resursă | Durată | Link |
 |---------|--------|------|
-| QA Metrics that Matter — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/articles/qa-metrics) |
+| QA Metrics — Ministry of Testing | ~2h | [→ Deschide](https://www.ministryoftesting.com/topics/quality-metrics) |
 | DORA Metrics — Google | ~1h | [→ Deschide](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) |
 | Goodhart's Law in Engineering | ~30min | [→ Deschide](https://martinfowler.com/bliki/MeasuringSuccess.html) |
 
