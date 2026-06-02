@@ -74,7 +74,20 @@ For 308 responses: permanent redirects that work fine for browser users. Update 
 ## Steps Claude follows
 
 ```
-1. For each cale-invatare-*.md file:
+1. Check version table in README.md (section "Mentenanță & Actualizări Planificate"):
+   a. Read the table rows — Componentă / Versiune curentă / EOL / Acțiune necesară / Urgență
+   b. For each row where Urgență is NOT ✅:
+      - WebSearch for the latest stable/LTS version of the component
+      - Compare with the version in the table
+      - If a newer version is current and the action date has passed (or is within 3 months):
+        * Update all version references in the relevant cale-invatare-*.md files
+          (e.g. "Node.js 22 LTS" → "Node.js 24 LTS", Docker image tags, pom.xml snippets, etc.)
+        * Update the version in the README table row
+        * Mark Urgență as ✅ if no further action needed, or update the date if still pending
+   c. For continuu rows (Playwright, JUnit 5, Postman): always check current version and update
+      if the files reference a version that is more than one minor behind
+
+2. For each cale-invatare-*.md file — URL validation:
    a. Extract all URLs from markdown link syntax [label](url)
    b. Skip: code examples (example.com, reqres.in), anchor-only links (#), relative paths (./)
    c. For each URL:
@@ -83,9 +96,38 @@ For 308 responses: permanent redirects that work fine for browser users. Update 
       - Flag as broken: 404, 402, 308 (if redirect target unknown), 200 with "not found" title
       - Flag as uncertain: 403, connection closed (verify with WebFetch)
    d. For broken URLs: search for replacement, verify replacement URL, update file
-   
-2. Commit with message: "fix: replace N broken URLs in learning paths"
+
+3. Commit with an English-language message: "chore: maintenance — update N versions, replace M broken URLs"
 ```
+
+## Version table reference (README.md → Mentenanță & Actualizări Planificate)
+
+The table tracks these components. When running maintenance, check each one:
+
+| Componentă | What to update in the learning paths |
+|------------|--------------------------------------|
+| Node.js LTS | Version number in TypeScript path setup sections, Docker image tags |
+| Python | Version in Python path setup sections (e.g. "Python 3.13+") |
+| Java LTS | Version in Java path setup sections, Maven compiler target |
+| Playwright | Version in CI YAML examples, npm install lines, Docker image tags |
+| JUnit 5 | Version in Maven/Gradle dependency snippets |
+| .NET LTS | Version in .NET path setup sections, SDK download links |
+| OWASP Top 10 | Edition year in security path (e.g. "2025") |
+| Postman | Version label for Academy course paths |
+
+**How to update a version:**
+1. WebSearch for latest stable release (e.g. "Node.js LTS current version 2026")
+2. Grep all `cale-invatare-*.md` files for the old version string
+3. Replace with the new version string
+4. Update the README table row (Versiune curentă + Urgență)
+5. If action is complete, set Urgență to ✅; if still pending future date, update the date
+
+## Commit messages
+
+Always write commit messages in English, regardless of the language used in the learning path files themselves. Use conventional commits format:
+- `fix: replace N broken URLs in learning paths`
+- `chore: maintenance — update N versions, replace M broken URLs`
+- `chore: update Playwright to vX.Y in TypeScript and Python paths`
 
 ## Notes
 
