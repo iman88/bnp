@@ -1,0 +1,148 @@
+# Maintain Learning Paths
+
+Validate all resource URLs in the BridgeNewProficiency learning path files and replace any that are broken, expired, or no longer relevant.
+
+## What this skill does
+
+1. Scans all `cale-invatare-*.md` files for Markdown links in table rows
+2. Checks each URL for availability (HTTP 200 + correct page title)
+3. Replaces invalid or expired links with working alternatives from the same domain or equivalent free resources
+4. Ensures all replacements are free, publicly accessible, and still relevant to QA/testing
+
+## How to run
+
+```
+/maintain-learning-paths
+```
+
+Optionally target a single file:
+```
+/maintain-learning-paths cale-invatare-testare-manuala.md
+```
+
+## Validation rules
+
+- **404 / connection error / domain-for-sale page** → replace
+- **Redirect to login wall without free tier** → replace  
+- **Course deleted from platform** (e.g. TAU course removed) → replace with active equivalent
+- **Domain changed** but content exists at new URL → update URL, keep resource name
+- **Platform deprecated / rebranded** → update label and URL (e.g. Mode Analytics → ThoughtSpot)
+- **402 Payment Required** → replace with free alternative
+- **200 OK but page title says "404" or "Page Not Found"** → treat as broken, replace
+- **403 or connection refused** → likely bot protection on legitimate site; check via WebFetch to confirm content exists before replacing
+
+## Important lessons from 2026-06 validation run
+
+### Platform-level changes to watch for
+
+- **Test Automation University (TAU)** removed ~15 courses. Check each course URL individually.
+  Working courses (June 2026): `playwright-intro/`, `junit5-tutorial/`, `automating-your-api-tests-with-rest-assured/`, `selenium-webdriver-tutorial-java/`, `selenium-webdriver-python-tutorial/`, `github-actions-for-testing/`, `setting-a-foundation-for-successful-test-automation/`, `pact-contract-tests/`, `performance-and-load-testing/`, `appium-java-tutorial/`, `appium-java-tutorial-1/`, `modern-functional-testing/`, `automated-visual-testing-a-fast-path-to-test-automation-success/`, `unit-testing/`, `scaling-tests-with-docker/`
+
+- **Ministry of Testing** restructured all article URLs. `/articles/X` paths mostly 404.
+  New patterns: `/articles/what-is-software-testing`, `/software-testing-glossary/X`, `/topics/X`, `/testbash-sessions/X`
+
+- **Mode Analytics** was acquired by ThoughtSpot. URLs still work but rebrand the label.
+
+- **rework.withgoogle.com** guides were removed. The psychological safety guide at `/guides/understanding-team-effectiveness/` is gone. Use CCL: `https://www.ccl.org/articles/leading-effectively-articles/what-is-psychological-safety-at-work/`
+
+- **thebalancemoney.com** articles moved behind a paywall (402). Use free alternatives (MIT career center, Glassdoor, etc.)
+
+- **PostgreSQL Tutorial** (postgresqltutorial.com) URL structure changed. Use `/postgresql-tutorial/X` prefix.
+
+## Lessons from 2026-11 maintenance run
+
+- **TLS false alarms on Windows.** Python `urllib` reported `CERTIFICATE_VERIFY_FAILED` for ~45 healthy sites (local TLS inspection). Re-check those with `curl -sL --ssl-no-revoke` before treating them as broken. Strip `` from URL lists written by Python on Windows before piping them to curl.
+- **Bot walls (keep the link):** Ministry of Testing, Real Python, Udemy, Runestone, Quizlet, Gartner, PMI (Cloudflare "Just a moment"), Glassdoor, levels.fyi (405), TryHackMe and Personio (Vercel 429), O'Reilly, ASQ, MySQL.
+- **Domain moves:** postgresqltutorial.com → neon.com/postgresql/... (e.g. `/window-function`); mode.com/sql-tutorial → thoughtspot.com/sql-tutorial; docs.anthropic.com → platform.claude.com/docs; deeplearning.ai/short-courses/X → /courses/X; mobiledevmemo.com → mdm.co; k6.io/learn → grafana.com/docs/k6/latest/.
+- **Dead and replaced:** progression.fyi (domain now redirects elsewhere; use career-ladders.dev); LeadDev `/team/...` paths 404 (use `/management`, `/communication/...`, `/career-development/...`); several softwaretestinghelp.com and browserstack.com/guide slugs 404 (BrowserStack's main guides now live at `/cross-browser-testing` etc.).
+- **YouTube:** check videos with `https://www.youtube.com/oembed?url=<video url>&format=json` — 404 means deleted/private.
+- **Versions (Nov 2026):** Node 26 became LTS in Oct 2026; Python 3.15 released 2026-10-09; JUnit 6.1 is current (JUnit 5 line ends at 5.14.x); Playwright Docker images now use `-noble` (Ubuntu 24.04) tags, and Java/.NET packages trail the npm release by a minor version.
+
+### URL verification approach
+
+**Do NOT rely only on HTTP status code.** Some sites return 200 with a "Not Found" page title. Always check both:
+1. HTTP status code (200 = potentially ok, 404/402/308 = needs action)
+2. Page title — confirm it matches expected content
+
+For 403 responses: most are bot protection (ASQ, Agile Alliance, Glassdoor, LinkedIn Learning, Runestone Academy). Verify via WebFetch if unsure. Do NOT replace 403 URLs unless you confirm via WebFetch that the content no longer exists.
+
+For 308 responses: permanent redirects that work fine for browser users. Update the URL to the final destination if you can determine it; otherwise leave as-is.
+
+### Replacement sources (priority order)
+
+1. Same article on the same site (URL slug changed)
+2. Official docs for the tool/technology
+3. Test Automation University (testautomationu.applitools.com) — for QA courses
+4. DeepLearning.AI free short courses — for AI/prompt engineering content
+5. freeCodeCamp, Hyperskill, W3Schools, MDN — for language/tech fundamentals
+6. Ministry of Testing `/topics/X` pages — for testing methodology topics (when specific article is gone)
+7. Martin Fowler blog / continuousdelivery.com — for methodology/architecture
+8. YouTube official channels (freeCodeCamp, official project channels)
+9. GitHub project pages — for open source tool documentation
+
+## Steps Claude follows
+
+```
+1. Check version table in README.md (section "Mentenanță & Actualizări Planificate"):
+   a. Read the table rows — Componentă / Versiune curentă / EOL / Acțiune necesară / Urgență
+   b. For each row where Urgență is NOT ✅:
+      - WebSearch for the latest stable/LTS version of the component
+      - Compare with the version in the table
+      - If a newer version is current and the action date has passed (or is within 3 months):
+        * Update all version references in the relevant cale-invatare-*.md files
+          (e.g. "Node.js 22 LTS" → "Node.js 24 LTS", Docker image tags, pom.xml snippets, etc.)
+        * Update the version in the README table row
+        * Mark Urgență as ✅ if no further action needed, or update the date if still pending
+   c. For continuu rows (Playwright, JUnit 5, Postman): always check current version and update
+      if the files reference a version that is more than one minor behind
+
+2. For each cale-invatare-*.md file — URL validation:
+   a. Extract all URLs from markdown link syntax [label](url)
+   b. Skip: code examples (example.com, reqres.in), anchor-only links (#), relative paths (./)
+   c. For each URL:
+      - Do HTTP GET with MaximumRedirection 5
+      - Check status code AND extract <title> from response HTML
+      - Flag as broken: 404, 402, 308 (if redirect target unknown), 200 with "not found" title
+      - Flag as uncertain: 403, connection closed (verify with WebFetch)
+   d. For broken URLs: search for replacement, verify replacement URL, update file
+
+3. Commit with an English-language message: "chore: maintenance — update N versions, replace M broken URLs"
+```
+
+## Version table reference (README.md → Mentenanță & Actualizări Planificate)
+
+The table tracks these components. When running maintenance, check each one:
+
+| Componentă | What to update in the learning paths |
+|------------|--------------------------------------|
+| Node.js LTS | Version number in TypeScript path setup sections, Docker image tags |
+| Python | Version in Python path setup sections (e.g. "Python 3.13+") |
+| Java LTS | Version in Java path setup sections, Maven compiler target |
+| Playwright | Version in CI YAML examples, npm install lines, Docker image tags |
+| JUnit 5 | Version in Maven/Gradle dependency snippets |
+| .NET LTS | Version in .NET path setup sections, SDK download links |
+| OWASP Top 10 | Edition year in security path (e.g. "2025") |
+| Postman | Version label for Academy course paths |
+
+**How to update a version:**
+1. WebSearch for latest stable release (e.g. "Node.js LTS current version 2026")
+2. Grep all `cale-invatare-*.md` files for the old version string
+3. Replace with the new version string
+4. Update the README table row (Versiune curentă + Urgență)
+5. If action is complete, set Urgență to ✅; if still pending future date, update the date
+
+## Commit messages
+
+Always write commit messages in English, regardless of the language used in the learning path files themselves. Use conventional commits format:
+- `fix: replace N broken URLs in learning paths`
+- `chore: maintenance — update N versions, replace M broken URLs`
+- `chore: update Playwright to vX.Y in TypeScript and Python paths`
+
+## Notes
+
+- Skip URLs that are code examples (`https://example.com`, `https://reqres.in`, etc.)
+- Skip anchor-only links (#section) and relative links (./file.md)
+- Discord invite links expire — replace with official community page if broken
+- YouTube video links: verify the video still exists (not deleted/private) by checking for "Video unavailable" in title
+- TAU courses move URLs frequently — check `testautomationu.applitools.com/` homepage for current catalog
+- When replacing a TAU course with a different source, update both the URL AND the label to reflect the new source
